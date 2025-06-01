@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    url: test
+    username: username
+    password: password
+    driver-class-name: com.mysql.jb
