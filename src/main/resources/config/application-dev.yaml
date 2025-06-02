@@ -3,7 +3,11 @@ server:
 
 spring:
   datasource:
-    url: test
-    username: username
-    password: password
-    driver-class-name: com.mysql.jb
+    username: root
+    url: jdbc:mariadb://localhost:3306/spring_data
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
