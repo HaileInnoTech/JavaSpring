@@ -35,3 +35,5 @@ build/
 # Spring Boot config (optional)
 application-*.yml
 application-*.properties
+
+src/main/resources/config/application*.yaml
